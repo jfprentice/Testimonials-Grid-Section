@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 25px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.grid-box{
+  width: 325px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.one{
+  background-color: hsl(263, 55%, 52%);
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-position: 200px 15px;
+  background-repeat: no-repeat;
+}
+
+.two{
+  background-color: hsl(217, 19%, 35%);
+}
+
+.three, .five{
+  background-color: hsl(0, 0%, 100%)
+}
+
+.four{
+  background-color: hsl(219, 29%, 14%);
+}
+
+.five{
+
+}
+
+.profile-picture{
+  border-radius: 100%;
+}
+
+.name{
+
+}
+
+.verified{
+
+}
+
+.headline{
+
+}
+
+.testimonial{
+
+}
+
+.attribution {
+  position: relative;
+  bottom: 0;
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
