@@ -24,7 +24,7 @@ body{
 }
 
 .grid-box > p{
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .one, .two, .four{
@@ -43,7 +43,8 @@ body{
 }
 
 .three, .five{
-  background-color: hsl(0, 0%, 100%)
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
 }
 
 .four{
@@ -53,7 +54,7 @@ body{
 
 .profile-picture{
   margin-top: 25px;
-  margin-left: 35px;
+  margin-left: 30px;
   width: 35px;
   height: auto;
   border-radius: 100%;
@@ -153,6 +154,7 @@ body{
     max-width: 1200px;
     grid-template-areas: 'one one one two five'
                           'three four four four five';
+    grid-gap: 35px;
   }
 
   .one{
